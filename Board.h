@@ -15,7 +15,7 @@ private:
     std::string resetString{};
 public:
     Board(int, int);
-    std::string getBoardString();
+    const std::string& getBoardString();
     void testPrint();
     void setTile(int, int, const std::string&);
     void setTile(std::pair<int, int>, std::string);
