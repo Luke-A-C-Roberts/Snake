@@ -97,3 +97,7 @@ void Snake::moveExtendSnake() {
     move();
     length++;
 }
+
+int Snake::getDirection() {
+    return direction;
+}
