@@ -19,6 +19,7 @@ public:
     int getLength() const;
     std::vector<std::pair<int, int>> getSegmentPositions();
     std::pair<int, int> getFirstPosition();
+    int getDirection();
 
     void changeDirection(int);
     void moveSnake();
